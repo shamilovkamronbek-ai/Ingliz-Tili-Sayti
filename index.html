@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="uz">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>English Academy — Ingliz tilini o'rganing</title>
+  <link rel="stylesheet" href="css/style.css">
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+</head>
+<body>
+
+  <!-- Header -->
+  <header class="header">
+    <div class="container header-inner">
+      <div class="logo">
+        <span class="logo-icon">🎓</span>
+        <span class="logo-text">English <b>Academy</b></span>
+      </div>
+      <nav class="nav">
+        <button class="nav-link active" data-view="home">Bosh sahifa</button>
+        <button class="nav-link" data-view="lessons">Darslar</button>
+        <button class="nav-link" data-view="vocabulary">Lug'at</button>
+        <button class="nav-link" data-view="quiz">Test</button>
+        <button class="nav-link" data-view="progress">Natijalar</button>
+      </nav>
+      <div class="streak" id="streakBadge" title="Kunlik zanjir">🔥 <span id="streakCount">0</span></div>
+    </div>
+  </header>
+
+  <!-- Main content -->
+  <main class="container" id="app"></main>
+
+  <!-- Footer -->
+  <footer class="footer">
+    <div class="container">
+      <p>English Academy — ingliz tilini o'rganishda muvaffaqiyat! 🚀</p>
+    </div>
+  </footer>
+
+  <div class="toast" id="toast"></div>
+
+  <script src="js/data.js"></script>
+  <script src="js/app.js"></script>
+</body>
+</html>
