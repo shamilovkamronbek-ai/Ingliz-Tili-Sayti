@@ -378,6 +378,424 @@ const LESSONS = [
         ]
       }
     ]
+  },
+  {
+    id: 9,
+    title: "Conditionals (Shart gaplar)",
+    icon: "🔀",
+    tag: "Murakkab",
+    tagClass: "red",
+    desc: "Zero, First, Second, Third conditional — shartli gaplar tuzish.",
+    level: "Yuqori",
+    content: [
+      {
+        type: "text",
+        html: `<p><b>Conditional</b> — shartli gaplar 4 xil bo'ladi. Har birining o'z qoidalari bor.</p>`
+      },
+      {
+        type: "example",
+        en: "<b>Zero:</b> If you heat water to 100°C, it <u>boils</u>.",
+        uz: "Suvni 100°C ga qizdirsangiz, u qaynaydi.",
+        note: "Haqiqatlar uchun: If + Present, Present"
+      },
+      {
+        type: "example",
+        en: "<b>First:</b> If it <u>rains</u> tomorrow, I <u>will stay</u> home.",
+        uz: "Agar ertaga yomg'ir yog'sa, men uyda qolaman.",
+        note: "Kelajak: If + Present, will + fe'l"
+      },
+      {
+        type: "example",
+        en: "<b>Second:</b> If I <u>had</u> more money, I <u>would travel</u> the world.",
+        uz: "Ko'proq pulim bo'lsa, men dunyoni sayohat qilardim.",
+        note: "Haqiqatga zid: If + Past, would + fe'l"
+      },
+      {
+        type: "example",
+        en: "<b>Third:</b> If she <u>had studied</u>, she <u>would have passed</u>.",
+        uz: "U o'qiganida, imtihondan o'tgan bo'lardi.",
+        note: "O'tmish uchun: If + Past Perfect, would have + V3"
+      },
+      {
+        type: "tip",
+        text: "Xotirada saqlang: <b>Zero</b>=haqiqat, <b>First</b>=kelajak, <b>Second</b>=taxmin, <b>Third</b>=o'tmishga afsus. Second conditionaldagi <b>were</b>: If I were you..."
+      },
+      {
+        type: "exercise",
+        title: "To'g'ri conditional shaklini tanlang",
+        options: [
+          { text: "If I ___ rich, I would buy a car.", answer: "were", choices: ["am", "were", "will be"] },
+          { text: "If you heat ice, it ___.", answer: "melts", choices: ["melt", "melts", "will melt"] },
+          { text: "If he ___ harder, he would have succeeded.", answer: "had worked", choices: ["worked", "had worked", "works"] },
+          { text: "If it ___ sunny, we will go to the park.", answer: "is", choices: ["is", "was", "were"] }
+        ]
+      }
+    ]
+  },
+  {
+    id: 10,
+    title: "Passive Voice (Passiv ovoz)",
+    icon: "🔄",
+    tag: "Murakkab",
+    tagClass: "red",
+    desc: "Passiv ovozda gap tuzish — har bir zamon uchun.",
+    level: "Yuqori",
+    content: [
+      {
+        type: "text",
+        html: `<p><b>Passive Voice</b> — ishning bajarilishiga e'tibor qaratilganda ishlatiladi. Formula: <b>Obyekt + am/is/are/was/were + V3 (+ by + ego)</b>.</p>`
+      },
+      {
+        type: "example",
+        en: "The cake <u>is made</u> by my mother.",
+        uz: "Tort onam tomonidan tayyorlangan.",
+        note: "Present Simple Passive"
+      },
+      {
+        type: "example",
+        en: "English <u>is spoken</u> in many countries.",
+        uz: "Ingliz tili ko'plab mamlakatlarda gapiriladi.",
+        note: "By qismi tushib qolishi mumkin"
+      },
+      {
+        type: "example",
+        en: "The book <u>was written</u> in 1990.",
+        uz: "Kitob 1990-yilda yozilgan.",
+        note: "Past Simple Passive"
+      },
+      {
+        type: "example",
+        en: "The bridge <u>is being built</u>.",
+        uz: "Ko'prik qurilmoqda.",
+        note: "Present Continuous Passive"
+      },
+      {
+        type: "tip",
+        text: "Passiveni ishlatish sabablari: ego noma'lum, e'tibor ishga qaratilganda, rasmiy tilda. Har bir zamon uchun passive shakli bor: <b>PV = be/is/am/are + V3</b>."
+      },
+      {
+        type: "exercise",
+        title: "Passiv shaklni to'ldiring",
+        options: [
+          { text: "The window ___ (break) by the boy.", answer: "was broken", choices: ["was broken", "broken", "is breaking"] },
+          { text: "A new school ___ (build) next year.", answer: "will be built", choices: ["will be built", "is built", "was built"] },
+          { text: "The letter ___ (write) right now.", answer: "is being written", choices: ["is written", "is being written", "was written"] },
+          { text: "Millions of trees ___ (plant) last year.", answer: "were planted", choices: ["were planted", "are planted", "are being planted"] }
+        ]
+      }
+    ]
+  },
+  {
+    id: 11,
+    title: "Reported Speech (Aytilgan gap)",
+    icon: "🗣️",
+    tag: "Murakkab",
+    tagClass: "red",
+    desc: "Boshqa kishining gapini qayta aytish.",
+    level: "Yuqori",
+    content: [
+      {
+        type: "text",
+        html: `<p><b>Reported Speech</b> — boshqa kishining so'zlarini qayta aytish. Quotition ishlatilmasa, zamon va zamongaoid so'zlar o'zgaradi.</p>`
+      },
+      {
+        type: "example",
+        en: "Direct: He said, <u>"I am tired."</u>",
+        uz: "To'g'ridan: U dedi: "Men charchadim."",
+        note: "Direct speech"
+      },
+      {
+        type: "example",
+        en: "Reported: He said (that) he <u>was</u> tired.",
+        uz: "Hisob: U dediki, u charchagan.",
+        note: "am → was, I → he"
+      },
+      {
+        type: "example",
+        en: "Direct: She said, <u>"I will come tomorrow."</u>",
+        uz: "To'g'ridan: U dedi: "Men ertaga kelaman."",
+        note: "Quotition bilan"
+      },
+      {
+        type: "example",
+        en: "Reported: She said (that) she <u>would come</u> the next day.",
+        uz: "Hisob: U dediki, u ertasi keladi.",
+        note: "will → would, tomorrow → the next day"
+      },
+      {
+        type: "tip",
+        text: "Zamon o'zgarishlari: <b>am/is → was, are → were, will → would, can → could, do/does → did, have → had</b>. Shart gaplarda o'zgarmaydi!"
+      },
+      {
+        type: "exercise",
+        title: "Reported Speech ga o'zgartiring",
+        options: [
+          { text: "She said: \"I ___ tired.\" → She said she was tired.", answer: "am", choices: ["am", "was", "will be"] },
+          { text: "He said: \"I ___ see you tomorrow.\" → He said he would see me the next day.", answer: "will", choices: ["will", "would", "can"] },
+          { text: "They said: \"We ___ finished.\" → They said they had finished.", answer: "have", choices: ["have", "had", "did"] },
+          { text: "He said: \"I ___ play tennis.\" → He said he could play tennis.", answer: "can", choices: ["can", "could", "may"] }
+        ]
+      }
+    ]
+  },
+  {
+    id: 12,
+    title: "Phrasal Verbs (Frazali fe'llar)",
+    icon: "🧩",
+    tag: "Murakkab",
+    tagClass: "red",
+    desc: "Frazali fe'llar — fe'l + predlog = yangi ma'no.",
+    level: "Yuqori",
+    content: [
+      {
+        type: "text",
+        html: `<p><b>Phrasal verb</b> — fe'l va predlog/aralashmadan tashkil topgan ibora. Ma'no fe'ldan ajralib chiqadi.</p>`
+      },
+      {
+        type: "example",
+        en: "Please <u>look up</u> this word in the dictionary.",
+        uz: "Iltimos, so'z lug'atda <u>qidirib</u> ko'ring.",
+        note: "<b>look up</b> = qidirish"
+      },
+      {
+        type: "example",
+        en: "She <u>gave up</u> smoking last year.",
+        uz: "U o'tgan yili chekishni <u>tashladi</u>.",
+        note: "<b>give up</b> = voz kechish"
+      },
+      {
+        type: "example",
+        en: "I need to <u>turn off</u> the lights.",
+        uz: "Menga chiroqlarni <u>o'chirish</u> kerak.",
+        note: "<b>turn off</b> = o'chirish"
+      },
+      {
+        type: "example",
+        en: "We <u>ran into</u> an old friend at the park.",
+        uz: "Biz parkda eski do'stimizga <u>duch keldik</u>.",
+        note: "<b>run into</b> = tasodifan uchrash"
+      },
+      {
+        type: "tip",
+        text: "Frazali fe'llar: <b>take off</b> (ko'tarilish/olish), <b>put off</b> (kechiktirish), <b>get on</b> (minish/yaxshi munosabat), <b>set up</b> (tashkil etish), <b>find out</b> (topish/bilish). Idiomatic — literal tarjima qilmang!"
+      },
+      {
+        type: "exercise",
+        title: "Frazali fe'l ma'nosini tanlang",
+        options: [
+          { text: "\"Don't give up!\" nimani anglatadi?", answer: "Voz kechma!", choices: ["Voz kechma!", "Tashla!", "Boshla!"] },
+          { text: "\"She looked up the word.\"", answer: "So'zni qidirdi", choices: ["So'zni qidirdi", "So'zga qaradi", "So'zni yozdi"] },
+          { text: "\"Please turn off the TV.\"", answer: "TV ni o'chir", choices: ["TV ni o'chir", "TV ni yoq", "TV ni ko'chir"] },
+          { text: "\"I ran into my teacher.\"", answer: "O'qituvchimga duch keldim", choices: ["O'qituvchimga duch keldim", "O'qituvchimdan yugurdim", "O'qituvchimni ko'rdim"] }
+        ]
+      }
+    ]
+  },
+  {
+    id: 13,
+    title: "Relative Clauses (Nisbat gaplar)",
+    icon: "🔗",
+    tag: "Murakkab",
+    tagClass: "red",
+    desc: "Who, which, that, whose bilan gaplarni bog'lash.",
+    level: "Yuqori",
+    content: [
+      {
+        type: "text",
+        html: `<p><b>Relative clause</b> — otga qo'shimcha ma'lumot beruvchi gap. Asosiy vositalar: <b>who, which, that, whose, where, when</b>.</p>`
+      },
+      {
+        type: "example",
+        en: "The man <u>who</u> lives next door is a doctor.",
+        uz: "Yonimizda yashovchi odam shifokor.",
+        note: "<b>who</b> — shaxslar uchun"
+      },
+      {
+        type: "example",
+        en: "The book <u>which</u> I bought is interesting.",
+        uz: "Men sotib olgan kitob qiziq.",
+        note: "<b>which</b> — narsalar uchun (qo'shimcha gap)"
+      },
+      {
+        type: "example",
+        en: "This is the best restaurant <u>that</u> I've ever been to.",
+        uz: "Men borgan eng yaxshi restoran.",
+        note: "<b>that</b> — shaxs va narsa (o'chirib bo'lmaydigan)"
+      },
+      {
+        type: "example",
+        en: "The girl <u>whose</u> mother is a teacher won the prize.",
+        uz: "Onasi o'qituvchi qiz mukofotni yutdi.",
+        note: "<b>whose</b> — egalik"
+      },
+      {
+        type: "tip",
+        text: "<b>who</b>=shaxs, <b>which</b>=narsa, <b>that</b>=hamma, <b>where</b>=joy, <b>when</b>=vaqt, <b>whose</b>=egalik. O'chirib bo'ladigan relative clause: The book (which) I read → o'chirish mumkin."
+      },
+      {
+        type: "exercise",
+        title: "To'g'ri relative pronoun ni tanlang",
+        options: [
+          { text: "The woman ___ lives upstairs is my aunt.", answer: "who", choices: ["which", "who", "that"] },
+          { text: "This is the movie ___ I told you about.", answer: "that", choices: ["who", "whose", "that"] },
+          { text: "The city ___ I was born is Tashkent.", answer: "where", choices: ["when", "where", "which"] },
+          { text: "The cat ___ tail is long ran away.", answer: "whose", choices: ["which", "whose", "that"] }
+        ]
+      }
+    ]
+  },
+  {
+    id: 14,
+    title: "Wish / If only (Xohlash gaplari)",
+    icon: "🌟",
+    tag: "Murakkab",
+    tagClass: "red",
+    desc: "O'zimiz xohlagan narsa haqida gapirish.",
+    level: "Yuqori",
+    content: [
+      {
+        type: "text",
+        html: `<p><b>Wish</b> va <b>If only</b> — hozir, o'tmish yoki kelajak haqida afsus/xohish bildirish.</p>`
+      },
+      {
+        type: "example",
+        en: "I <u>wish I had</u> more free time. (hozir)",
+        uz: "Ko'proq bo'sh vaqtim bo'lsa edi. (hozir xohish)",
+        note: "If + Past → xohish (hozir)"
+      },
+      {
+        type: "example",
+        en: "I <u>wish I had gone</u> to the party. (o'tmish)",
+        uz: "Kecha ziyofatga borganimda edi. (o'tmishga afsus)",
+        note: "If + Past Perfect → o'tmishga afsus"
+      },
+      {
+        type: "example",
+        en: "<u>If only</u> I <u>could speak</u> French!",
+        uz: "Fransuzcha gapira olsam edi!",
+        note: "<b>If only</b> — kuchliroq xohish"
+      },
+      {
+        type: "tip",
+        text: "Wish qoidalari: <b>Wish + Past Simple</b> (hozir xohish) = I wish I were rich. <b>Wish + Past Perfect</b> (o'tmishga afsus) = I wish I had studied. <b>Wish + would</b> (o'zgarmaslikni xohlash) = I wish you would stop."
+      },
+      {
+        type: "exercise",
+        title: "Wish qoidasini tanlang",
+        options: [
+          { text: "I wish I ___ taller.", answer: "were", choices: ["am", "were", "will be"] },
+          { text: "She wishes she ___ harder last year.", answer: "had studied", choices: ["studied", "had studied", "studies"] },
+          { text: "I wish it ___ raining.", answer: "would stop", choices: ["stops", "stopped", "would stop"] },
+          { text: "If only I ___ the answer!", answer: "knew", choices: ["know", "knew", "had known"] }
+        ]
+      }
+    ]
+  },
+  {
+    id: 15,
+    title: "Connectors (Bog'lovchi so'zlar)",
+    icon: "🧱",
+    tag: "Murakkab",
+    tagClass: "red",
+    desc: "However, therefore, moreover — matnni bog'lovchi so'zlar.",
+    level: "Yuqori",
+    content: [
+      {
+        type: "text",
+        html: `<p><b>Connectors</b> — gaplarni bog'lovchi so'zlar. Rasmiy yozishda va nutqda juda muhim.</p>`
+      },
+      {
+        type: "example",
+        en: "He was tired; <u>however</u>, he kept working.",
+        uz: "U charchagan edi; <b>biroq</b>, ishlashda davom etdi.",
+        note: "<b>however</b> = biroq, lekin (qarama-qarshilik)"
+      },
+      {
+        type: "example",
+        en: "It was raining; <u>therefore</u>, we stayed home.",
+        uz: "Yomg'ir yog'ayotgan edi; <b>shuning uchun</b>, uyda qoldik.",
+        note: "<b>therefore</b> = shuning uchun"
+      },
+      {
+        type: "example",
+        en: "She is smart; <u>moreover</u>, she is very kind.",
+        uz: "U aqlli; <b>bundan tashqari</b>, juda mehribon.",
+        note: "<b>moreover</b> = bundan tashqari"
+      },
+      {
+        type: "example",
+        en: "He didn't study; <u>consequently</u>, he failed the exam.",
+        uz: "U o'qimadi; <b>natijada</b>, imtihondan o'tmadi.",
+        note: "<b>consequently</b> = natijada"
+      },
+      {
+        type: "tip",
+        text: "Rasmiy bog'lovchilar: <b>however</b>=biroq, <b>therefore</b>=shuning uchun, <b>moreover</b>=bundan tashqari, <b>furthermore</b>=qo'shimcha, <b>nevertheless</b>=qarama-qarshi, <b>instead</b>=buning o'rniga."
+      },
+      {
+        type: "exercise",
+        title: "To'g'ri bog'lovchini tanlang",
+        options: [
+          { text: "The store was closed; ___, we couldn't buy anything.", answer: "therefore", choices: ["therefore", "however", "moreover"] },
+          { text: "She was very busy; ___, she helped me.", answer: "nevertheless", choices: ["therefore", "moreover", "nevertheless"] },
+          { text: "The hotel was expensive; ___, the service was great.", answer: "moreover", choices: ["however", "moreover", "therefore"] },
+          { text: "I didn't bring an umbrella; ___, I got wet.", answer: "consequently", choices: ["moreover", "however", "consequently"] }
+        ]
+      }
+    ]
+  },
+  {
+    id: 16,
+    title: "Mixed Tenses (Aralash zamonlar)",
+    icon: "🎯",
+    tag: "Murakkab",
+    tagClass: "red",
+    desc: "Bir gapda bir nechta zamon ishlatish.",
+    level: "Yuqori",
+    content: [
+      {
+        type: "text",
+        html: `<p>Ko'pincha gap ichida turli zamonlar qo'llaniladi. Zamon tanlovini kontekstdan aniqlash kerak.</p>`
+      },
+      {
+        type: "example",
+        en: "She <u>has been living</u> in London since 2015.",
+        uz: "U 2015-yildan beri Londonda yashab kelmoqda.",
+        note: "Present Perfect Continuous — davomiy ish"
+      },
+      {
+        type: "example",
+        en: "I <u>was reading</u> when the phone <u>rang</u>.",
+        uz: "Men kitob o'qiyotganda telefon jiringladi.",
+        note: "Past Continuous + Past Simple — uzilish"
+      },
+      {
+        type: "example",
+        en: "By the time I arrived, they <u>had already left</u>.",
+        uz: "Men yetib kelganimda, ular allaqachon ketishgan edi.",
+        note: "Past Perfect — o'tmishdan oldin"
+      },
+      {
+        type: "example",
+        en: "I <u>will have finished</u> by 5 o'clock.",
+        uz: "Men soat 5 ga qadar tugatgan bo'laman.",
+        note: "Future Perfect — kelajakda tugallanish"
+      },
+      {
+        type: "tip",
+        text: "Muhim aralashma: <b>Present Perfect + since/for</b>, <b>Past Continuous + while/when</b>, <b>Past Perfect + by the time</b>, <b>Future Perfect + by/until</b>. Vaqt belgilovchi so'zlar muhim!"
+      },
+      {
+        type: "exercise",
+        title: "To'g'ri zamonni tanlang",
+        options: [
+          { text: "I ___ in London for 5 years (and I still live there).", answer: "have lived", choices: ["lived", "have lived", "am living"] },
+          { text: "When I ___ (arrive), she ___ (cook) dinner.", answer: "arrived ... was cooking", choices: ["arrived ... cooked", "arrived ... was cooking", "was arriving ... cooked"] },
+          { text: "By next month, I ___ (save) enough money.", answer: "will have saved", choices: ["will save", "will have saved", "have saved"] },
+          { text: "She ___ (work) here since 2018.", answer: "has been working", choices: ["works", "has been working", "worked"] }
+        ]
+      }
+    ]
   }
 ];
 
