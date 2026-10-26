@@ -500,8 +500,8 @@ const LESSONS = [
       },
       {
         type: "example",
-        en: "Direct: He said, <u>"I am tired."</u>",
-        uz: "To'g'ridan: U dedi: "Men charchadim."",
+        en: "Direct: He said, <u>\"I am tired.\"</u>",
+        uz: "To'g'ridan: U dedi: \"Men charchadim.\"",
         note: "Direct speech"
       },
       {
@@ -512,8 +512,8 @@ const LESSONS = [
       },
       {
         type: "example",
-        en: "Direct: She said, <u>"I will come tomorrow."</u>",
-        uz: "To'g'ridan: U dedi: "Men ertaga kelaman."",
+        en: "Direct: She said, <u>\"I will come tomorrow.\"</u>",
+        uz: "To'g'ridan: U dedi: \"Men ertaga kelaman.\"",
         note: "Quotition bilan"
       },
       {
